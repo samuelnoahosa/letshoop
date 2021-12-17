@@ -10,7 +10,7 @@ namespace letshoop.ViewModels
         public AboutViewModel()
         {
             Title = "About";
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
+            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://www.youtube.com/watch?v=7uBqNgxAuBA&ab_channel=hahahailey"));
         }
 
         public ICommand OpenWebCommand { get; }
